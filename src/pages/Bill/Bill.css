@@ -1,0 +1,23 @@
+.cv-bill-page {
+  padding-top: 50px;
+  padding-bottom: 60px;
+  min-height: 70vh;
+}
+
+.cv-history-link {
+  color: var(--color-primary);
+  font-weight: 600;
+}
+
+[data-theme="dark"] .cv-history-link {
+  color: var(--color-secondary);
+}
+
+@media print {
+  .cv-bill-actions,
+  .cv-navbar,
+  .cv-footer,
+  .cv-floating-btn {
+    display: none !important;
+  }
+}

@@ -1,0 +1,23 @@
+.cv-newsletter-box {
+  max-width: 720px;
+  margin: 0 auto;
+}
+
+.cv-newsletter-form {
+  display: flex;
+  gap: 12px;
+  max-width: 480px;
+  margin: 0 auto;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.cv-newsletter-form input {
+  flex: 1;
+  min-width: 220px;
+  padding: 12px 18px;
+  border-radius: 30px;
+  border: 1px solid var(--color-border);
+  background-color: var(--color-bg);
+  color: var(--color-text);
+}

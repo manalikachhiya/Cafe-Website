@@ -1,0 +1,50 @@
+.cv-auth-page {
+  min-height: 85vh;
+  padding: 60px 0;
+}
+
+.cv-input-icon {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-sm);
+  padding: 0 14px;
+  background-color: var(--color-bg);
+}
+
+.cv-input-icon svg {
+  color: var(--color-text-muted);
+  flex-shrink: 0;
+}
+
+.cv-input-icon input {
+  border: none;
+  background: transparent;
+  padding: 12px 0;
+  width: 100%;
+}
+
+.cv-input-icon input:focus {
+  outline: none;
+  box-shadow: none;
+}
+
+.btn-google {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  border: 1px solid var(--color-border);
+  background-color: var(--color-card);
+  color: var(--color-text);
+  border-radius: var(--radius-sm);
+  padding: 10px 0;
+  font-weight: 600;
+  transition: var(--transition);
+}
+
+.btn-google:hover {
+  box-shadow: var(--shadow-sm);
+  transform: translateY(-2px);
+}

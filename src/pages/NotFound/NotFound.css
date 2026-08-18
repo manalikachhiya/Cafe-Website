@@ -1,0 +1,16 @@
+.cv-404 {
+  min-height: 80vh;
+}
+
+.cv-404-code {
+  font-size: 8rem;
+  font-weight: 800;
+  color: var(--color-primary);
+  line-height: 1;
+}
+
+@media (max-width: 768px) {
+  .cv-404-code {
+    font-size: 5rem;
+  }
+}

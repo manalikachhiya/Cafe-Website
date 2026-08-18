@@ -1,0 +1,49 @@
+.cv-offers {
+  background: linear-gradient(135deg, var(--color-primary), var(--color-primary-dark));
+  color: #fff;
+}
+
+.cv-offer-card {
+  background-color: rgba(255, 255, 255, 0.08);
+  border: 1px dashed rgba(255, 255, 255, 0.3);
+  border-radius: var(--radius);
+  padding: 30px;
+  text-align: center;
+  height: 100%;
+  transition: var(--transition);
+}
+
+.cv-offer-card:hover {
+  background-color: rgba(255, 255, 255, 0.15);
+  transform: translateY(-6px);
+}
+
+.cv-offer-icon {
+  width: 56px;
+  height: 56px;
+  border-radius: 50%;
+  background-color: var(--color-accent);
+  color: var(--color-primary-dark);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto 16px;
+  font-size: 1.4rem;
+}
+
+.cv-offer-card p {
+  color: rgba(255, 255, 255, 0.8);
+  font-size: 0.9rem;
+}
+
+.cv-offer-code {
+  display: inline-block;
+  margin-top: 10px;
+  background-color: var(--color-accent);
+  color: var(--color-primary-dark);
+  padding: 5px 14px;
+  border-radius: 20px;
+  font-size: 0.78rem;
+  font-weight: 700;
+  letter-spacing: 0.5px;
+}

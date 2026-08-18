@@ -1,0 +1,12 @@
+[
+  { "id": 1, "name": "Ananya Sharma", "photo": "https://i.pravatar.cc/100?img=32", "rating": 5, "comment": "The ambience is absolutely stunning and the cappuccino is the best I've had in the city. My go-to weekend spot!" },
+  { "id": 2, "name": "Rohan Kapoor", "photo": "https://i.pravatar.cc/100?img=12", "rating": 5, "comment": "CafeVerse has become our regular meeting spot. Great WiFi, quiet corners, and the pastries are divine." },
+  { "id": 3, "name": "Priya Nair", "photo": "https://i.pravatar.cc/100?img=47", "rating": 4, "comment": "Loved the outdoor seating and the mango smoothie. Service was friendly and quick." },
+  { "id": 4, "name": "Karan Mehta", "photo": "https://i.pravatar.cc/100?img=14", "rating": 5, "comment": "Best tiramisu in town, hands down. The staff remembered my order the second time I visited!" },
+  { "id": 5, "name": "Ishita Verma", "photo": "https://i.pravatar.cc/100?img=25", "rating": 5, "comment": "Perfect place for a first date — cozy lighting, great music, and the coffee art is Instagram-worthy." },
+  { "id": 6, "name": "Aditya Rao", "photo": "https://i.pravatar.cc/100?img=8", "rating": 4, "comment": "Great pizza and quick service. Would love more vegan options on the menu though." },
+  { "id": 7, "name": "Sneha Iyer", "photo": "https://i.pravatar.cc/100?img=44", "rating": 5, "comment": "The reservation system is so smooth, and our birthday table was beautifully set up. Highly recommend!" },
+  { "id": 8, "name": "Vikram Singh", "photo": "https://i.pravatar.cc/100?img=15", "rating": 5, "comment": "Their cold brew is unmatched. I come here every morning before work — never disappoints." },
+  { "id": 9, "name": "Neha Joshi", "photo": "https://i.pravatar.cc/100?img=48", "rating": 4, "comment": "Cozy interiors and friendly staff. The club sandwich is a must-try!" },
+  { "id": 10, "name": "Arjun Desai", "photo": "https://i.pravatar.cc/100?img=11", "rating": 5, "comment": "Hosted a small team meeting here — private corner seating and fast WiFi made it perfect." }
+]

@@ -1,0 +1,17 @@
+.cv-service-icon {
+  width: 54px;
+  height: 54px;
+  flex-shrink: 0;
+  border-radius: var(--radius-sm);
+  background-color: rgba(111, 78, 55, 0.1);
+  color: var(--color-primary);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.4rem;
+}
+
+[data-theme="dark"] .cv-service-icon {
+  color: var(--color-secondary);
+  background-color: rgba(212, 163, 115, 0.12);
+}

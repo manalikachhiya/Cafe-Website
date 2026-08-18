@@ -1,0 +1,14 @@
+.cv-my-booking-page {
+  padding-top: 50px;
+  min-height: 70vh;
+}
+
+.cv-history-link {
+  color: var(--color-primary);
+  font-weight: 600;
+  text-decoration: underline;
+}
+
+[data-theme="dark"] .cv-history-link {
+  color: var(--color-secondary);
+}

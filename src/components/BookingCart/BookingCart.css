@@ -1,0 +1,114 @@
+.cv-booking-item-row {
+  animation: fadeInUp 0.4s ease both;
+}
+
+.cv-booking-item-img {
+  width: 76px;
+  height: 76px;
+  object-fit: cover;
+  border-radius: var(--radius-sm);
+  flex-shrink: 0;
+}
+
+.cv-booking-item-info {
+  min-width: 160px;
+}
+
+.cv-qty-control {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  background-color: var(--color-bg);
+  border: 1px solid var(--color-border);
+  border-radius: 30px;
+  padding: 4px 10px;
+}
+
+.cv-qty-control button {
+  width: 26px;
+  height: 26px;
+  border-radius: 50%;
+  border: none;
+  background-color: var(--color-primary);
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: var(--transition);
+}
+
+.cv-qty-control button:hover {
+  background-color: var(--color-primary-dark);
+}
+
+.cv-qty-control span {
+  min-width: 20px;
+  text-align: center;
+  font-weight: 700;
+}
+
+.cv-booking-item-total {
+  min-width: 80px;
+}
+
+.cv-icon-btn {
+  width: 38px;
+  height: 38px;
+  border-radius: 50%;
+  border: 1px solid var(--color-border);
+  background: transparent;
+  color: var(--color-text);
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  transition: var(--transition);
+  flex-shrink: 0;
+}
+
+.cv-icon-btn-danger:hover {
+  background-color: #c53030;
+  color: #fff;
+  border-color: #c53030;
+}
+
+.cv-bill-summary {
+  position: sticky;
+  top: 100px;
+}
+
+.cv-bill-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 8px 0;
+  color: var(--color-text-muted);
+  font-size: 0.9rem;
+}
+
+.cv-bill-row label {
+  font-size: 0.85rem;
+  font-weight: 500;
+  color: var(--color-text);
+  margin-bottom: 0;
+}
+
+.cv-bill-row input[type="checkbox"] {
+  width: 16px;
+  height: 16px;
+  accent-color: var(--color-primary);
+}
+
+.cv-bill-grand-total {
+  font-size: 1.15rem;
+  font-weight: 800;
+  color: var(--color-primary);
+}
+
+[data-theme="dark"] .cv-bill-grand-total {
+  color: var(--color-secondary);
+}
+
+.cv-empty-booking {
+  text-align: center;
+  padding: 60px 20px;
+}

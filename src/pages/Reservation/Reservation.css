@@ -1,0 +1,23 @@
+.cv-reservation-page {
+  padding-top: 50px;
+  min-height: 70vh;
+}
+
+.cv-icon-btn {
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  border: 1px solid var(--color-border);
+  background: transparent;
+  color: var(--color-text);
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  transition: var(--transition);
+}
+
+.cv-icon-btn-danger:hover {
+  background-color: #c53030;
+  color: #fff;
+  border-color: #c53030;
+}

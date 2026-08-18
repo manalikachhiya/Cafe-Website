@@ -1,0 +1,75 @@
+.cv-stats-banner {
+  background: linear-gradient(135deg, var(--color-primary), var(--color-primary-dark));
+  color: #fff;
+}
+
+.cv-stats-banner h2 {
+  font-size: 2.4rem;
+  font-weight: 800;
+  color: var(--color-accent);
+}
+
+.cv-stats-banner p {
+  color: rgba(255, 255, 255, 0.85);
+  margin: 0;
+}
+
+.cv-gallery-preview-item {
+  height: 140px;
+  overflow: hidden;
+}
+
+.btn-outline-cafe-custom-lg {
+  background: transparent;
+  border: 2px solid var(--color-primary);
+  color: var(--color-primary);
+  border-radius: 30px;
+  padding: 10px 28px;
+  font-weight: 600;
+  transition: var(--transition);
+}
+
+.btn-outline-cafe-custom-lg:hover {
+  background-color: var(--color-primary);
+  color: #fff;
+}
+
+[data-theme="dark"] .btn-outline-cafe-custom-lg {
+  border-color: var(--color-secondary);
+  color: var(--color-secondary);
+}
+
+.cv-insta-item {
+  position: relative;
+  display: block;
+  border-radius: var(--radius);
+  overflow: hidden;
+  height: 140px;
+}
+
+.cv-insta-item img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.4s ease;
+}
+
+.cv-insta-overlay {
+  position: absolute;
+  inset: 0;
+  background-color: rgba(111, 78, 55, 0.6);
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 0;
+  transition: var(--transition);
+}
+
+.cv-insta-item:hover .cv-insta-overlay {
+  opacity: 1;
+}
+
+.cv-insta-item:hover img {
+  transform: scale(1.1);
+}

@@ -1,0 +1,39 @@
+.cv-menu-page {
+  padding-top: 50px;
+  min-height: 70vh;
+}
+
+.cv-search-bar {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  border: 1px solid var(--color-border);
+  border-radius: 30px;
+  padding: 4px 16px;
+  background-color: var(--color-bg);
+}
+
+.cv-search-bar svg {
+  color: var(--color-text-muted);
+  flex-shrink: 0;
+}
+
+.cv-search-bar input {
+  border: none;
+  background: transparent;
+  padding: 10px 0;
+  width: 100%;
+}
+
+.cv-search-bar input:focus {
+  box-shadow: none;
+}
+
+.cv-menu-toolbar select {
+  border-radius: 30px;
+}
+
+.cv-menu-toolbar input[type="range"] {
+  width: 100%;
+  accent-color: var(--color-primary);
+}

@@ -1,0 +1,18 @@
+[
+  { "id": 1, "category": "Interior", "title": "Cozy Seating Area", "image": "https://images.unsplash.com/photo-1554118811-1e0d58224f24?auto=format&fit=crop&w=700&q=80" },
+  { "id": 2, "category": "Interior", "title": "Warm Wooden Interiors", "image": "https://images.unsplash.com/photo-1493857671505-72967e2e2760?auto=format&fit=crop&w=700&q=80" },
+  { "id": 3, "category": "Exterior", "title": "Cafe Storefront", "image": "https://images.unsplash.com/photo-1445116572660-236099ec97a0?auto=format&fit=crop&w=700&q=80" },
+  { "id": 4, "category": "Exterior", "title": "Outdoor Patio Seating", "image": "https://images.unsplash.com/photo-1521017432531-fbd92d768814?auto=format&fit=crop&w=700&q=80" },
+  { "id": 5, "category": "Coffee Art", "title": "Latte Art Heart", "image": "https://images.unsplash.com/photo-1572442388796-11668a67e53d?auto=format&fit=crop&w=700&q=80" },
+  { "id": 6, "category": "Coffee Art", "title": "Rosetta Latte Art", "image": "https://images.unsplash.com/photo-1541167760496-1628856ab772?auto=format&fit=crop&w=700&q=80" },
+  { "id": 7, "category": "Food", "title": "Fresh Baked Pastries", "image": "https://images.unsplash.com/photo-1555507036-ab1f4038808a?auto=format&fit=crop&w=700&q=80" },
+  { "id": 8, "category": "Food", "title": "Signature Pizza", "image": "https://images.unsplash.com/photo-1574071318508-1cdbab80d002?auto=format&fit=crop&w=700&q=80" },
+  { "id": 9, "category": "Food", "title": "Decadent Chocolate Cake", "image": "https://images.unsplash.com/photo-1578985545062-69928b1d9587?auto=format&fit=crop&w=700&q=80" },
+  { "id": 10, "category": "Chef", "title": "Chef Preparing a Dish", "image": "https://images.unsplash.com/photo-1577106263724-2c8e03bfe9cf?auto=format&fit=crop&w=700&q=80" },
+  { "id": 11, "category": "Chef", "title": "Barista Crafting Coffee", "image": "https://images.unsplash.com/photo-1521017432531-fbd92d768814?auto=format&fit=crop&w=700&q=80" },
+  { "id": 12, "category": "Interior", "title": "Bar Counter View", "image": "https://images.unsplash.com/photo-1453614512568-c4024d13c247?auto=format&fit=crop&w=700&q=80" },
+  { "id": 13, "category": "Food", "title": "Fresh Fruit Smoothie", "image": "https://images.unsplash.com/photo-1546173159-315724a31696?auto=format&fit=crop&w=700&q=80" },
+  { "id": 14, "category": "Exterior", "title": "Evening Ambience", "image": "https://images.unsplash.com/photo-1554118811-1e0d58224f24?auto=format&fit=crop&w=700&q=80" },
+  { "id": 15, "category": "Interior", "title": "Reading Corner", "image": "https://images.unsplash.com/photo-1600093463592-8e36ae95ef56?auto=format&fit=crop&w=700&q=80" },
+  { "id": 16, "category": "Food", "title": "Classic Breakfast Spread", "image": "https://images.unsplash.com/photo-1533089860892-a7c6f0a88666?auto=format&fit=crop&w=700&q=80" }
+]

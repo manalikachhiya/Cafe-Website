@@ -1,0 +1,52 @@
+.cv-about-img-wrap {
+  position: relative;
+}
+
+.cv-about-badge {
+  position: absolute;
+  bottom: -20px;
+  right: -20px;
+  background-color: var(--color-primary);
+  color: #fff;
+  padding: 20px 26px;
+  border-radius: var(--radius);
+  text-align: center;
+  box-shadow: var(--shadow-md);
+}
+
+.cv-about-badge h3 {
+  font-size: 1.8rem;
+  font-weight: 800;
+  color: var(--color-accent);
+  margin-bottom: 2px;
+}
+
+.cv-about-badge p {
+  margin: 0;
+  font-size: 0.8rem;
+}
+
+.cv-about-list li {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 12px;
+  color: var(--color-text);
+}
+
+.cv-about-list svg {
+  color: var(--color-primary);
+  flex-shrink: 0;
+}
+
+[data-theme="dark"] .cv-about-list svg {
+  color: var(--color-secondary);
+}
+
+@media (max-width: 768px) {
+  .cv-about-badge {
+    right: 10px;
+    bottom: -16px;
+    padding: 14px 18px;
+  }
+}

@@ -1,0 +1,124 @@
+.cv-masonry {
+  column-count: 4;
+  column-gap: 18px;
+}
+
+.cv-masonry-item {
+  break-inside: avoid;
+  margin-bottom: 18px;
+  border-radius: var(--radius);
+  overflow: hidden;
+  position: relative;
+  cursor: pointer;
+  box-shadow: var(--shadow-sm);
+}
+
+.cv-masonry-item img {
+  width: 100%;
+  display: block;
+  transition: transform 0.5s ease;
+}
+
+.cv-masonry-item:hover img {
+  transform: scale(1.08);
+}
+
+.cv-masonry-overlay {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(to top, rgba(23, 15, 8, 0.85), transparent 60%);
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  padding: 16px;
+  opacity: 0;
+  transition: var(--transition);
+  color: #fff;
+}
+
+.cv-masonry-item:hover .cv-masonry-overlay {
+  opacity: 1;
+}
+
+.cv-masonry-overlay span {
+  font-weight: 700;
+}
+
+.cv-masonry-overlay small {
+  color: var(--color-accent);
+}
+
+/* Lightbox */
+.cv-lightbox-overlay {
+  position: fixed;
+  inset: 0;
+  background-color: rgba(0, 0, 0, 0.9);
+  z-index: 4000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  animation: fadeIn 0.25s ease;
+  padding: 20px;
+}
+
+.cv-lightbox-img {
+  max-width: 80vw;
+  max-height: 80vh;
+  border-radius: var(--radius-sm);
+  object-fit: contain;
+}
+
+.cv-lightbox-close {
+  position: absolute;
+  top: 24px;
+  right: 30px;
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  border: none;
+  background-color: rgba(255, 255, 255, 0.15);
+  color: #fff;
+  font-size: 1.3rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.cv-lightbox-nav {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  border: none;
+  background-color: rgba(255, 255, 255, 0.15);
+  color: #fff;
+  font-size: 1.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.cv-lightbox-prev { left: 20px; }
+.cv-lightbox-next { right: 20px; }
+
+.cv-lightbox-caption {
+  position: absolute;
+  bottom: 24px;
+  color: #fff;
+  font-weight: 600;
+}
+
+@media (max-width: 992px) {
+  .cv-masonry { column-count: 3; }
+}
+
+@media (max-width: 768px) {
+  .cv-masonry { column-count: 2; }
+  .cv-lightbox-nav { width: 40px; height: 40px; }
+}
+
+@media (max-width: 480px) {
+  .cv-masonry { column-count: 1; }
+}
